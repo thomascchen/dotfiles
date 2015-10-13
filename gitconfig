@@ -1,0 +1,43 @@
+[user]
+  name = Thomas Chen
+  email = chen.thomas.c@gmail.com
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = cyan
+  deleted = red bold
+
+[core]
+  excludesfile = /Users/thomaschen/.gitignore
+
+[alias]
+  glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
