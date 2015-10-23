@@ -12,6 +12,8 @@ if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
 fi
 
+alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install | echo ༼ ºل͟º༼ ºل͟º(  ͡°  ͜ʖ  ͡°)ºل͟º ༽ºل͟º ༽'
+
 export EDITOR='vim'
 export VISUAL='vim'
 export GIT_EDITOR='vim'
