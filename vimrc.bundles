@@ -11,7 +11,7 @@ Plugin 'gmarik/vundle'
 Plugin 'HeroicEric/vim-colors-buckles'
 Plugin 'croaky/vim-colors-github'
 Plugin 'gosukiwi/vim-atom-dark'
-Plugin 'mhumeSF/one-dark.vim'
+Plugin 'geoffharcourt/one-dark.vim'
 
 " Highlighters
 Plugin 'elixir-lang/vim-elixir'
